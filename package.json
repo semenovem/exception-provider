@@ -1,0 +1,26 @@
+{
+  "name": "exception-provider",
+  "version": "0.0.0",
+  "description": "exception-provider",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/semenovem/exception-provider.git"
+  },
+  "author": "semenov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/semenovem/exception-provider/issues"
+  },
+  "homepage": "https://github.com/semenovem/exception-provider#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "typescript": "^3.0.3"
+  }
+}
